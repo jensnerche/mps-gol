@@ -85,7 +85,7 @@
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="2100605462298822494">
                 <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2100605462298822471">
-                  <property name="value" nameId="tpee.1070475926801" value="N: " />
+                  <property name="value" nameId="tpee.1070475926801" value="Next generation: " />
                 </node>
                 <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.LocalInstanceMethodCall" typeId="tpee.3066917033203108594" id="2100605462298819613">
                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="2100605462298819566" resolveInfo="nextGeneration" />
