@@ -20,6 +20,7 @@
   <roots>
     <node type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="1473756568530895614">
       <property name="name" nameId="tpck.1169194664001" value="main" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="gol" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1473756568530897884">
       <property name="name" nameId="tpck.1169194664001" value="weave_DecisionTable" />
@@ -429,6 +430,20 @@
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="gztu.5215392704153146722" resolveInfo="CoordinateType" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="5215392704153296909">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="4267018133005507695" resolveInfo="reduce_CoordinateType" />
+      </node>
+    </node>
+    <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="438002626651375732">
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="gztu.438002626651368104" resolveInfo="AliveConcept" />
+      <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.InlineTemplate_RuleConsequence" typeId="tpf8.1177093525992" id="438002626651375734">
+        <node role="templateNode" roleId="tpf8.1177093586806" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="438002626651375738">
+          <property name="value" nameId="tpee.1068580123138" value="true" />
+        </node>
+      </node>
+    </node>
+    <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="438002626651375739">
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="gztu.438002626651373249" resolveInfo="DeadConcept" />
+      <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.InlineTemplate_RuleConsequence" typeId="tpf8.1177093525992" id="438002626651375741">
+        <node role="templateNode" roleId="tpf8.1177093586806" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="438002626651375743" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="4267018133005514103">

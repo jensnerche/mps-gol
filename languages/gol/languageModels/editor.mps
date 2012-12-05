@@ -33,6 +33,14 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="mappingTable" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="gztu.5215392704153268722" resolveInfo="BinaryOperationReference" />
     </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="438002626651368919">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="gol" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="gztu.438002626651368104" resolveInfo="AliveConcept" />
+    </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="438002626651373251">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="gol" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="gztu.438002626651373249" resolveInfo="DeadConcept" />
+    </node>
   </roots>
   <root id="5907515862518976300">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="5907515862518990888">
@@ -158,6 +166,22 @@
         <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_ConceptProperty" typeId="tpc2.1137553248617" id="5215392704153268729">
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
         </node>
+      </node>
+    </node>
+  </root>
+  <root id="438002626651368919">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_ConceptProperty" typeId="tpc2.1137553248617" id="438002626651368921">
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.ForegroundColorStyleClassItem" typeId="tpc2.1186404549998" id="438002626651371258">
+        <property name="color" nameId="tpc2.1186403713874" value="DARK_GREEN" />
+      </node>
+    </node>
+  </root>
+  <root id="438002626651373251">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_ConceptProperty" typeId="tpc2.1137553248617" id="438002626651373253">
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.ForegroundColorStyleClassItem" typeId="tpc2.1186404549998" id="438002626651373254">
+        <property name="color" nameId="tpc2.1186403713874" value="red" />
       </node>
     </node>
   </root>
