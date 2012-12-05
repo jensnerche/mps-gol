@@ -219,12 +219,8 @@
                 <node role="body" roleId="tp2c.1199569916463" type="tpee.StatementList" typeId="tpee.1068580123136" id="438002626651334418">
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="438002626651334419">
                     <node role="expression" roleId="tpee.1068580123156" type="gztu.DecisionTable" typeId="gztu.5907515862518976291" id="438002626651334420">
-                      <node role="expectedType" roleId="gztu.5907515862518976293" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="438002626651368458">
-                        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~Boolean" resolveInfo="Boolean" />
-                      </node>
-                      <node role="defaultValue" roleId="gztu.5907515862518976294" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="438002626651334422">
-                        <property name="value" nameId="tpee.1068580123138" value="false" />
-                      </node>
+                      <node role="expectedType" roleId="gztu.5907515862518976293" type="tpee.BooleanType" typeId="tpee.1070534644030" id="438002626651377225" />
+                      <node role="defaultValue" roleId="gztu.5907515862518976294" type="gztu.DeadConcept" typeId="gztu.438002626651373249" id="438002626651377241" />
                       <node role="colHeaders" roleId="gztu.5907515862518976295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="438002626651334423">
                         <node role="operand" roleId="tpee.1197027771414" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="438002626651334424">
                           <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2100605462298819565" resolveInfo="generation" />
