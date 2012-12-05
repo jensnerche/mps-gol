@@ -112,17 +112,8 @@
   </root>
   <root id="5215392704153164329">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="5215392704153164331">
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="5215392704153164334">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="gztu.5215392704153164326" />
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5215392704153164336">
-        <property name="text" nameId="tpc2.1073389577007" value="Input:" />
-      </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="5215392704153164338">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="gztu.5215392704153164327" />
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5215392704153265979">
-        <property name="text" nameId="tpc2.1073389577007" value="Operation:" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="5215392704153265981">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="gztu.5215392704153265976" />
@@ -152,6 +143,9 @@
               </node>
             </node>
           </node>
+        </node>
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBracketsStyleClassItem" typeId="tpc2.1219226236603" id="438002626651358615">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
         </node>
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="5215392704153164333" />

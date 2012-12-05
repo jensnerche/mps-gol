@@ -385,12 +385,6 @@
               <node role="componentType" roleId="tpee.1070534760952" type="gztu.CoordinateType" typeId="gztu.5215392704153146722" id="8058348897360366446" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="gztu.MappingTable" typeId="gztu.5215392704153164322" id="8058348897360366467">
-              <node role="expectedType" roleId="gztu.5215392704153164326" type="tpee.ArrayType" typeId="tpee.1070534760951" id="8058348897360366468">
-                <node role="componentType" roleId="tpee.1070534760952" type="gztu.CoordinateType" typeId="gztu.5215392704153146722" id="8058348897360366475" />
-              </node>
-              <node role="inputValue" roleId="gztu.5215392704153164327" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="8058348897360366476">
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2100605462298820442" resolveInfo="cell" />
-              </node>
               <node role="operation" roleId="gztu.5215392704153265976" type="gztu.BinaryOperationReference" typeId="gztu.5215392704153268722" id="438002626651320932">
                 <link role="operation" roleId="gztu.5215392704153268723" targetNodeId="2100605462298822494" />
               </node>
@@ -447,6 +441,9 @@
               <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="8058348897360366727">
                 <property name="x" nameId="gztu.5215392704153116002" value="1" />
                 <property name="y" nameId="gztu.5215392704153116003" value="-1" />
+              </node>
+              <node role="inputValue" roleId="gztu.5215392704153164327" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="438002626651366853">
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2100605462298820442" resolveInfo="cell" />
               </node>
             </node>
           </node>
