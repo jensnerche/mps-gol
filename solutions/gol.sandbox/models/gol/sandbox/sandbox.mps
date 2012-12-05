@@ -335,32 +335,32 @@
               <node role="operation" roleId="gztu.5215392704153265976" type="gztu.BinaryOperationReference" typeId="gztu.5215392704153268722" id="438002626651320932">
                 <link role="operation" roleId="gztu.5215392704153268723" targetNodeId="2100605462298822494" />
               </node>
-              <node role="colHeaders" roleId="gztu.5215392704153250800" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8058348897360366472">
-                <property name="value" nameId="tpee.1070475926801" value="left" />
+              <node role="colHeaders" roleId="gztu.5215392704153250800" type="gztu.MappingTableLabel" typeId="gztu.438002626651377256" id="438002626651380542">
+                <property name="label" nameId="gztu.438002626651377258" value="left" />
               </node>
-              <node role="rowHeaders" roleId="gztu.5215392704153250867" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8058348897360366473">
-                <property name="value" nameId="tpee.1070475926801" value="upper" />
+              <node role="rowHeaders" roleId="gztu.5215392704153250867" type="gztu.MappingTableLabel" typeId="gztu.438002626651377256" id="438002626651380562">
+                <property name="label" nameId="gztu.438002626651377258" value="upper" />
               </node>
               <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="8058348897360366707">
                 <property name="x" nameId="gztu.5215392704153116002" value="-1" />
                 <property name="y" nameId="gztu.5215392704153116003" value="1" />
               </node>
-              <node role="colHeaders" roleId="gztu.5215392704153250800" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8058348897360366708">
-                <property name="value" nameId="tpee.1070475926801" value="middle" />
+              <node role="colHeaders" roleId="gztu.5215392704153250800" type="gztu.MappingTableLabel" typeId="gztu.438002626651377256" id="438002626651380546">
+                <property name="label" nameId="gztu.438002626651377258" value="middle" />
               </node>
               <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="8058348897360366710">
                 <property name="x" nameId="gztu.5215392704153116002" value="0" />
                 <property name="y" nameId="gztu.5215392704153116003" value="1" />
               </node>
-              <node role="colHeaders" roleId="gztu.5215392704153250800" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8058348897360366711">
-                <property name="value" nameId="tpee.1070475926801" value="right" />
+              <node role="colHeaders" roleId="gztu.5215392704153250800" type="gztu.MappingTableLabel" typeId="gztu.438002626651377256" id="438002626651380555">
+                <property name="label" nameId="gztu.438002626651377258" value="right" />
               </node>
               <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="8058348897360366713">
                 <property name="x" nameId="gztu.5215392704153116002" value="1" />
                 <property name="y" nameId="gztu.5215392704153116003" value="1" />
               </node>
-              <node role="rowHeaders" roleId="gztu.5215392704153250867" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8058348897360366714">
-                <property name="value" nameId="tpee.1070475926801" value="middle" />
+              <node role="rowHeaders" roleId="gztu.5215392704153250867" type="gztu.MappingTableLabel" typeId="gztu.438002626651377256" id="438002626651380564">
+                <property name="label" nameId="gztu.438002626651377258" value="middle" />
               </node>
               <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="8058348897360366724">
                 <property name="x" nameId="gztu.5215392704153116002" value="-1" />
@@ -374,8 +374,8 @@
                 <property name="x" nameId="gztu.5215392704153116002" value="1" />
                 <property name="y" nameId="gztu.5215392704153116003" value="0" />
               </node>
-              <node role="rowHeaders" roleId="gztu.5215392704153250867" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8058348897360366718">
-                <property name="value" nameId="tpee.1070475926801" value="lower" />
+              <node role="rowHeaders" roleId="gztu.5215392704153250867" type="gztu.MappingTableLabel" typeId="gztu.438002626651377256" id="438002626651380568">
+                <property name="label" nameId="gztu.438002626651377258" value="lower" />
               </node>
               <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="8058348897360366725">
                 <property name="x" nameId="gztu.5215392704153116002" value="-1" />

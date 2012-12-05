@@ -41,6 +41,10 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="gol" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="gztu.438002626651373249" resolveInfo="DeadConcept" />
     </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="438002626651377259">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="mappingTable" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="gztu.438002626651377256" resolveInfo="MappingTableLabel" />
+    </node>
   </roots>
   <root id="5907515862518976300">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="5907515862518990888">
@@ -183,6 +187,11 @@
       <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.ForegroundColorStyleClassItem" typeId="tpc2.1186404549998" id="438002626651373254">
         <property name="color" nameId="tpc2.1186403713874" value="red" />
       </node>
+    </node>
+  </root>
+  <root id="438002626651377259">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="438002626651377261">
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="gztu.438002626651377258" resolveInfo="label" />
     </node>
   </root>
 </model>
