@@ -327,85 +327,85 @@
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="2100605462298820355">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="2100605462298820677">
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2100605462298820678">
-            <property name="name" nameId="tpck.1169194664001" value="cellAndItsNeighbors" />
+            <property name="name" nameId="tpck.1169194664001" value="neighbors" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ArrayType" typeId="tpee.1070534760951" id="2100605462298820681">
               <node role="componentType" roleId="tpee.1070534760952" type="gztu.CoordinateType" typeId="gztu.5215392704153146722" id="8058348897360366446" />
             </node>
-            <node role="initializer" roleId="tpee.1068431790190" type="gztu.MappingTable" typeId="gztu.5215392704153164322" id="8058348897360366467">
-              <node role="operation" roleId="gztu.5215392704153265976" type="gztu.BinaryOperationReference" typeId="gztu.5215392704153268722" id="438002626651320932">
-                <link role="operation" roleId="gztu.5215392704153268723" targetNodeId="2100605462298822494" />
-              </node>
-              <node role="colHeaders" roleId="gztu.5215392704153250800" type="gztu.MappingTableLabel" typeId="gztu.438002626651377256" id="438002626651380542">
-                <property name="label" nameId="gztu.438002626651377258" value="left" />
-              </node>
-              <node role="rowHeaders" roleId="gztu.5215392704153250867" type="gztu.MappingTableLabel" typeId="gztu.438002626651377256" id="438002626651380562">
-                <property name="label" nameId="gztu.438002626651377258" value="upper" />
-              </node>
-              <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="8058348897360366707">
-                <property name="x" nameId="gztu.5215392704153116002" value="-1" />
-                <property name="y" nameId="gztu.5215392704153116003" value="1" />
-              </node>
-              <node role="colHeaders" roleId="gztu.5215392704153250800" type="gztu.MappingTableLabel" typeId="gztu.438002626651377256" id="438002626651380546">
-                <property name="label" nameId="gztu.438002626651377258" value="middle" />
-              </node>
-              <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="8058348897360366710">
-                <property name="x" nameId="gztu.5215392704153116002" value="0" />
-                <property name="y" nameId="gztu.5215392704153116003" value="1" />
-              </node>
-              <node role="colHeaders" roleId="gztu.5215392704153250800" type="gztu.MappingTableLabel" typeId="gztu.438002626651377256" id="438002626651380555">
-                <property name="label" nameId="gztu.438002626651377258" value="right" />
-              </node>
-              <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="8058348897360366713">
-                <property name="x" nameId="gztu.5215392704153116002" value="1" />
-                <property name="y" nameId="gztu.5215392704153116003" value="1" />
-              </node>
-              <node role="rowHeaders" roleId="gztu.5215392704153250867" type="gztu.MappingTableLabel" typeId="gztu.438002626651377256" id="438002626651380564">
-                <property name="label" nameId="gztu.438002626651377258" value="middle" />
-              </node>
-              <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="8058348897360366724">
-                <property name="x" nameId="gztu.5215392704153116002" value="-1" />
-                <property name="y" nameId="gztu.5215392704153116003" value="0" />
-              </node>
-              <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="8058348897360366722">
-                <property name="x" nameId="gztu.5215392704153116002" value="0" />
-                <property name="y" nameId="gztu.5215392704153116003" value="0" />
-              </node>
-              <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="8058348897360366723">
-                <property name="x" nameId="gztu.5215392704153116002" value="1" />
-                <property name="y" nameId="gztu.5215392704153116003" value="0" />
-              </node>
-              <node role="rowHeaders" roleId="gztu.5215392704153250867" type="gztu.MappingTableLabel" typeId="gztu.438002626651377256" id="438002626651380568">
-                <property name="label" nameId="gztu.438002626651377258" value="lower" />
-              </node>
-              <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="8058348897360366725">
-                <property name="x" nameId="gztu.5215392704153116002" value="-1" />
-                <property name="y" nameId="gztu.5215392704153116003" value="-1" />
-              </node>
-              <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="8058348897360366726">
-                <property name="x" nameId="gztu.5215392704153116002" value="0" />
-                <property name="y" nameId="gztu.5215392704153116003" value="-1" />
-              </node>
-              <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="8058348897360366727">
-                <property name="x" nameId="gztu.5215392704153116002" value="1" />
-                <property name="y" nameId="gztu.5215392704153116003" value="-1" />
-              </node>
-              <node role="inputValue" roleId="gztu.5215392704153164327" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="438002626651366853">
+            <node role="initializer" roleId="tpee.1068431790190" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="3601856703980946290">
+              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="3601856703980946296">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2100605462298820442" resolveInfo="cell" />
+              </node>
+              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="3601856703980946256">
+                <node role="expression" roleId="tpee.1079359253376" type="gztu.MappingTable" typeId="gztu.5215392704153164322" id="3601856703980946257">
+                  <node role="operation" roleId="gztu.5215392704153265976" type="gztu.BinaryOperationReference" typeId="gztu.5215392704153268722" id="3601856703980946258">
+                    <link role="operation" roleId="gztu.5215392704153268723" targetNodeId="2100605462298822494" />
+                  </node>
+                  <node role="colHeaders" roleId="gztu.5215392704153250800" type="gztu.MappingTableLabel" typeId="gztu.438002626651377256" id="3601856703980946259">
+                    <property name="label" nameId="gztu.438002626651377258" value="left" />
+                  </node>
+                  <node role="rowHeaders" roleId="gztu.5215392704153250867" type="gztu.MappingTableLabel" typeId="gztu.438002626651377256" id="3601856703980946260">
+                    <property name="label" nameId="gztu.438002626651377258" value="upper" />
+                  </node>
+                  <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="3601856703980946261">
+                    <property name="x" nameId="gztu.5215392704153116002" value="-1" />
+                    <property name="y" nameId="gztu.5215392704153116003" value="1" />
+                  </node>
+                  <node role="colHeaders" roleId="gztu.5215392704153250800" type="gztu.MappingTableLabel" typeId="gztu.438002626651377256" id="3601856703980946262">
+                    <property name="label" nameId="gztu.438002626651377258" value="middle" />
+                  </node>
+                  <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="3601856703980946263">
+                    <property name="x" nameId="gztu.5215392704153116002" value="0" />
+                    <property name="y" nameId="gztu.5215392704153116003" value="1" />
+                  </node>
+                  <node role="colHeaders" roleId="gztu.5215392704153250800" type="gztu.MappingTableLabel" typeId="gztu.438002626651377256" id="3601856703980946264">
+                    <property name="label" nameId="gztu.438002626651377258" value="right" />
+                  </node>
+                  <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="3601856703980946265">
+                    <property name="x" nameId="gztu.5215392704153116002" value="1" />
+                    <property name="y" nameId="gztu.5215392704153116003" value="1" />
+                  </node>
+                  <node role="rowHeaders" roleId="gztu.5215392704153250867" type="gztu.MappingTableLabel" typeId="gztu.438002626651377256" id="3601856703980946266">
+                    <property name="label" nameId="gztu.438002626651377258" value="middle" />
+                  </node>
+                  <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="3601856703980946267">
+                    <property name="x" nameId="gztu.5215392704153116002" value="-1" />
+                    <property name="y" nameId="gztu.5215392704153116003" value="0" />
+                  </node>
+                  <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="3601856703980946268">
+                    <property name="x" nameId="gztu.5215392704153116002" value="0" />
+                    <property name="y" nameId="gztu.5215392704153116003" value="0" />
+                  </node>
+                  <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="3601856703980946269">
+                    <property name="x" nameId="gztu.5215392704153116002" value="1" />
+                    <property name="y" nameId="gztu.5215392704153116003" value="0" />
+                  </node>
+                  <node role="rowHeaders" roleId="gztu.5215392704153250867" type="gztu.MappingTableLabel" typeId="gztu.438002626651377256" id="3601856703980946270">
+                    <property name="label" nameId="gztu.438002626651377258" value="lower" />
+                  </node>
+                  <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="3601856703980946271">
+                    <property name="x" nameId="gztu.5215392704153116002" value="-1" />
+                    <property name="y" nameId="gztu.5215392704153116003" value="-1" />
+                  </node>
+                  <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="3601856703980946272">
+                    <property name="x" nameId="gztu.5215392704153116002" value="0" />
+                    <property name="y" nameId="gztu.5215392704153116003" value="-1" />
+                  </node>
+                  <node role="resultValues" roleId="gztu.5215392704153164328" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="3601856703980946273">
+                    <property name="x" nameId="gztu.5215392704153116002" value="1" />
+                    <property name="y" nameId="gztu.5215392704153116003" value="-1" />
+                  </node>
+                  <node role="inputValue" roleId="gztu.5215392704153164327" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="3601856703980946274">
+                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2100605462298820442" resolveInfo="cell" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3601856703980913616">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3601856703980913654">
-            <node role="operand" roleId="tpee.1197027771414" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="3601856703980913637">
-              <node role="expression" roleId="tpee.1079359253376" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="3601856703980913638">
-                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="3601856703980913639">
-                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2100605462298820442" resolveInfo="cell" />
-                </node>
-                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3601856703980913640">
-                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2100605462298820678" resolveInfo="cellAndItsNeighbors" />
-                </node>
-              </node>
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3601856703980913640">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2100605462298820678" resolveInfo="neighbors" />
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tp2q.AsSequenceOperation" typeId="tp2q.1240325842691" id="3601856703980915435" />
           </node>
@@ -424,13 +424,13 @@
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="438002626651334630" />
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.IntegerType" typeId="tpee.1070534370425" id="438002626651334631" />
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="438002626651334628">
-        <property name="name" nameId="tpck.1169194664001" value="generation" />
+        <property name="name" nameId="tpck.1169194664001" value="currentGeneration" />
         <node role="type" roleId="tpee.5680397130376446158" type="tp2q.SequenceType" typeId="tp2q.1151689724996" id="438002626651334632">
           <node role="elementType" roleId="tp2q.1151689745422" type="gztu.CoordinateType" typeId="gztu.5215392704153146722" id="438002626651334633" />
         </node>
       </node>
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="438002626651334627">
-        <property name="name" nameId="tpck.1169194664001" value="it" />
+        <property name="name" nameId="tpck.1169194664001" value="cell" />
         <node role="type" roleId="tpee.5680397130376446158" type="gztu.CoordinateType" typeId="gztu.5215392704153146722" id="438002626651334634" />
       </node>
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="438002626651334635">
@@ -440,12 +440,12 @@
               <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalInstanceMethodCall" typeId="tpee.3066917033203108594" id="438002626651334639">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="2100605462298820351" resolveInfo="neighbors" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="438002626651334640">
-                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="438002626651334627" resolveInfo="it" />
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="438002626651334627" resolveInfo="cell" />
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp2q.IntersectOperation" typeId="tp2q.1176921879268" id="438002626651334641">
                 <node role="rightExpression" roleId="tp2q.1176906787974" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="438002626651334642">
-                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="438002626651334628" resolveInfo="generation" />
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="438002626651334628" resolveInfo="currentGeneration" />
                 </node>
               </node>
             </node>
