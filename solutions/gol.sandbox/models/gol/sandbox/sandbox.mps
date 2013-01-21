@@ -152,6 +152,22 @@
         </node>
       </node>
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="2100605462298819571">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="5940443057139167739">
+          <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="5940443057139167740">
+            <property name="name" nameId="tpck.1169194664001" value="bla" />
+            <node role="type" roleId="tpee.5680397130376446158" type="gztu.CoordinateType" typeId="gztu.5215392704153146722" id="5940443057139167741" />
+            <node role="initializer" roleId="tpee.1068431790190" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="5940443057139167742">
+              <node role="leftExpression" roleId="tpee.1081773367580" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="5940443057139167743">
+                <property name="x" nameId="gztu.5215392704153116002" value="1" />
+                <property name="y" nameId="gztu.5215392704153116003" value="2" />
+              </node>
+              <node role="rightExpression" roleId="tpee.1081773367579" type="gztu.CoordinateLiteral" typeId="gztu.5215392704153116000" id="5940443057139167744">
+                <property name="x" nameId="gztu.5215392704153116002" value="3" />
+                <property name="y" nameId="gztu.5215392704153116003" value="4" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="2100605462298819572">
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2100605462298819563">
             <property name="name" nameId="tpck.1169194664001" value="candidates" />
