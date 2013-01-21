@@ -125,7 +125,7 @@
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2201560891100069466" resolveInfo="i" />
             </node>
             <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="438002626651336189">
-              <property name="value" nameId="tpee.1068580320021" value="3" />
+              <property name="value" nameId="tpee.1068580320021" value="30" />
             </node>
           </node>
           <node role="iteration" roleId="tpee.1144231408325" type="tpee.PostfixIncrementExpression" typeId="tpee.1214918800624" id="2201560891100069512">
@@ -395,27 +395,19 @@
             </node>
           </node>
         </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2100605462298820717">
-          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2100605462298820756">
-            <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2100605462298820733">
-              <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="2100605462298820718">
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2100605462298820678" resolveInfo="cellAndItsNeighbors" />
-              </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tp2q.AsSequenceOperation" typeId="tp2q.1240325842691" id="2100605462298820739" />
-            </node>
-            <node role="operation" roleId="tpee.1197027833540" type="tp2q.ExcludeOperation" typeId="tp2q.1176923520476" id="2100605462298820762">
-              <node role="rightExpression" roleId="tp2q.1176906787974" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2100605462298820832">
-                <node role="operand" roleId="tpee.1197027771414" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="2100605462298820790">
-                  <node role="creator" roleId="tpee.1145553007750" type="tpee.ArrayCreatorWithInitializer" typeId="tpee.1154542696413" id="2100605462298820813">
-                    <node role="componentType" roleId="tpee.1154542793668" type="gztu.CoordinateType" typeId="gztu.5215392704153146722" id="8058348897360366447" />
-                    <node role="initValue" roleId="tpee.1154542803372" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="2100605462298820816">
-                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2100605462298820442" resolveInfo="cell" />
-                    </node>
-                  </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3601856703980913616">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3601856703980913654">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="3601856703980913637">
+              <node role="expression" roleId="tpee.1079359253376" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="3601856703980913638">
+                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="3601856703980913639">
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2100605462298820442" resolveInfo="cell" />
                 </node>
-                <node role="operation" roleId="tpee.1197027833540" type="tp2q.AsSequenceOperation" typeId="tp2q.1240325842691" id="2100605462298820839" />
+                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3601856703980913640">
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2100605462298820678" resolveInfo="cellAndItsNeighbors" />
+                </node>
               </node>
             </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp2q.AsSequenceOperation" typeId="tp2q.1240325842691" id="3601856703980915435" />
           </node>
         </node>
       </node>
