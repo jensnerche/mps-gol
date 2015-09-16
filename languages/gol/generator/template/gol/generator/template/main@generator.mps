@@ -736,8 +736,8 @@
                   <node concept="3JvlWi" id="39sI$il$PI1" role="2OqNvi" />
                 </node>
                 <node concept="1mIQ4w" id="39sI$il$Qms" role="2OqNvi">
-                  <node concept="chp4Y" id="39sI$il$QHP" role="cj9EA">
-                    <ref role="cht4Q" to="gztu:4xwN0wRdtPw" resolve="CoordinateLiteral" />
+                  <node concept="chp4Y" id="39sI$il_hYV" role="cj9EA">
+                    <ref role="cht4Q" to="tpee:g7uibYu" resolve="ClassifierType" />
                   </node>
                 </node>
               </node>
