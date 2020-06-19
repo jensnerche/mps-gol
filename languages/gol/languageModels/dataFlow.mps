@@ -2,8 +2,7 @@
 <model ref="r:5e2b5938-2fb0-41ad-8b2c-400784f9f6e9(gol.dataFlow)">
   <persistence version="9" />
   <languages>
-    <use id="7fa12e9c-b949-4976-b4fa-19accbc320b4" name="jetbrains.mps.lang.dataFlow" version="0" />
-    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+    <devkit ref="00000000-0000-4000-0000-443879f56b80(jetbrains.mps.devkit.aspect.dataflow)" />
   </languages>
   <imports>
     <import index="gztu" ref="r:838c2433-2a77-47ce-85f6-ff7f031433e0(gol.structure)" />
@@ -81,7 +80,7 @@
           <node concept="2OqwBi" id="1OAQoBp$iXJ" role="3Ah4Yx">
             <node concept="3__QtB" id="1OAQoBp$iXq" role="2Oq$k0" />
             <node concept="3TrEf2" id="1OAQoBp$iXS" role="2OqNvi">
-              <ref role="3Tt5mk" to="gztu:4xwN0wRdDCB" />
+              <ref role="3Tt5mk" to="gztu:4xwN0wRdDCB" resolve="inputValue" />
             </node>
           </node>
         </node>
@@ -97,7 +96,7 @@
           <node concept="2OqwBi" id="1OAQoBp$jbz" role="3Ah4Yx">
             <node concept="3__QtB" id="1OAQoBp$jbe" role="2Oq$k0" />
             <node concept="3TrEf2" id="1OAQoBp$jbD" role="2OqNvi">
-              <ref role="3Tt5mk" to="gztu:57VHA2ErsWA" />
+              <ref role="3Tt5mk" to="gztu:57VHA2ErsWA" resolve="defaultValue" />
             </node>
           </node>
         </node>
@@ -106,7 +105,7 @@
             <node concept="2OqwBi" id="1OAQoBp$jcw" role="2Oq$k0">
               <node concept="3__QtB" id="1OAQoBp$jcb" role="2Oq$k0" />
               <node concept="3Tsc0h" id="1OAQoBp$jcA" role="2OqNvi">
-                <ref role="3TtcxE" to="gztu:57VHA2ErsWB" />
+                <ref role="3TtcxE" to="gztu:57VHA2ErsWB" resolve="colHeaders" />
               </node>
             </node>
             <node concept="2es0OD" id="1OAQoBp$jd2" role="2OqNvi">
@@ -131,7 +130,7 @@
             <node concept="2OqwBi" id="1OAQoBp$jdc" role="2Oq$k0">
               <node concept="3__QtB" id="1OAQoBp$jdd" role="2Oq$k0" />
               <node concept="3Tsc0h" id="1OAQoBp$jdn" role="2OqNvi">
-                <ref role="3TtcxE" to="gztu:57VHA2ErsWC" />
+                <ref role="3TtcxE" to="gztu:57VHA2ErsWC" resolve="rowHeaders" />
               </node>
             </node>
             <node concept="2es0OD" id="1OAQoBp$jdf" role="2OqNvi">
@@ -156,7 +155,7 @@
             <node concept="2OqwBi" id="1OAQoBp$jdq" role="2Oq$k0">
               <node concept="3__QtB" id="1OAQoBp$jdr" role="2Oq$k0" />
               <node concept="3Tsc0h" id="1OAQoBp$jdA" role="2OqNvi">
-                <ref role="3TtcxE" to="gztu:57VHA2ErsWD" />
+                <ref role="3TtcxE" to="gztu:57VHA2ErsWD" resolve="resultValues" />
               </node>
             </node>
             <node concept="2es0OD" id="1OAQoBp$jdt" role="2OqNvi">
