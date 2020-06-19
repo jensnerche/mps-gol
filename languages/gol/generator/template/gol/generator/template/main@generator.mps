@@ -254,7 +254,6 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
@@ -280,7 +279,6 @@
   </registry>
   <node concept="bUwia" id="1hNPsDKFGbY">
     <property role="TrG5h" value="main" />
-    <property role="3GE5qa" value="gol" />
     <node concept="2rT7sh" id="37WnpqWCPXn" role="2rTMjI">
       <property role="TrG5h" value="DecisionTableImplementationMethodName" />
       <ref role="2rTdP9" to="gztu:57VHA2ErsWz" resolve="DecisionTable" />

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/gol/gol.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/gol.runtime/runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/gol.sandbox/gol.sandbox.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
