@@ -1,5 +1,5 @@
 This is a "Game of Life" implemented in JetBrains MPS with baseLanguage + extensions.
-It is implemented using MPS 3.2.
+It is implemented using MPS 2018.3
 
 See:
 * if you don't know the Game of Life: http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
