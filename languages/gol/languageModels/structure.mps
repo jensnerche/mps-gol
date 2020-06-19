@@ -2,17 +2,18 @@
 <model ref="r:838c2433-2a77-47ce-85f6-ff7f031433e0(gol.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -42,6 +43,7 @@
     <property role="TrG5h" value="DecisionTable" />
     <property role="3GE5qa" value="decisionTable" />
     <property role="34LRSv" value="dectab" />
+    <property role="1pbfSe" value="60193405" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="57VHA2ErsW_" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -78,6 +80,7 @@
     <property role="TrG5h" value="CoordinateLiteral" />
     <property role="3GE5qa" value="coordinate" />
     <property role="34LRSv" value="coordinate" />
+    <property role="1pbfSe" value="2140580200" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyi" id="4xwN0wRdtPy" role="1TKVEl">
       <property role="TrG5h" value="x" />
@@ -92,12 +95,14 @@
     <property role="3GE5qa" value="coordinate" />
     <property role="TrG5h" value="CoordinateType" />
     <property role="34LRSv" value="Coordinate" />
+    <property role="1pbfSe" value="2140610922" />
     <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
   </node>
   <node concept="1TIwiD" id="4xwN0wRdDCy">
     <property role="TrG5h" value="MappingTable" />
     <property role="3GE5qa" value="mappingTable" />
     <property role="34LRSv" value="maptab" />
+    <property role="1pbfSe" value="2140628522" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="4xwN0wRdDCB" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -133,6 +138,7 @@
   <node concept="1TIwiD" id="4xwN0wRe37M">
     <property role="3GE5qa" value="mappingTable" />
     <property role="TrG5h" value="BinaryOperationReference" />
+    <property role="1pbfSe" value="2140732922" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4xwN0wRe37N" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -145,17 +151,20 @@
     <property role="TrG5h" value="AliveConcept" />
     <property role="3GE5qa" value="gol" />
     <property role="34LRSv" value="alive" />
+    <property role="1pbfSe" value="2108537927" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="ok6h5WfzV1">
     <property role="TrG5h" value="DeadConcept" />
     <property role="3GE5qa" value="gol" />
     <property role="34LRSv" value="dead" />
+    <property role="1pbfSe" value="2108532782" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="ok6h5Wf$TC">
     <property role="3GE5qa" value="mappingTable" />
     <property role="TrG5h" value="MappingTableLabel" />
+    <property role="1pbfSe" value="2108528775" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="ok6h5Wf$TE" role="1TKVEl">
       <property role="TrG5h" value="label" />
