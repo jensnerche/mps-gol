@@ -34,7 +34,7 @@
   <component name="DependencyValidationManager">
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="PROJECT" charset="UTF-8" />
   </component>
   <component name="MPSFavoritesManager">
@@ -63,6 +63,7 @@
     <entry key="jetbrains.mps.fixLangVersions" value="executed" />
     <entry key="jetbrains.mps.fixMig_33_331" value="executed" />
     <entry key="jetbrains.mps.ide.mpsmigration.v172.JUnitLibsRepackaging" value="executed" />
+    <entry key="jetbrains.mps.ide.mpsmigration.v182.ReapplyPatternMigration" value="executed" />
     <entry key="jetbrains.mps.ide.mpsmigration.v33.UpdateModuleUsedLang" value="executed" />
     <entry key="jetbrains.mps.ide.mpsmigration.v35.EditorGeneratorRefactoring" value="executed" />
     <entry key="jetbrains.mps.ide.mpsmigration.v35.RemoveHistoryFiles" value="executed" />
